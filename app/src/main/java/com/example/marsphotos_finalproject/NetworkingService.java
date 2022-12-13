@@ -29,6 +29,8 @@ public class NetworkingService {
     public NetworkingListener listener;
 
     //Task 1
+    // define here any needed reference variables or classes to be used in your code.
+
 
     public void getNasaImages(String rover, String date){
 
@@ -39,12 +41,16 @@ public class NetworkingService {
 
     public void getImageData(String imgurl){
         //Task 2
+        // complete this function to fetch the image data correctly from
+        // the provided url and pass it to the service's listener.
 
     }
 
 
     public void connect(String url){
         //Task 3
+        // complete this function to get the content of this url and pass it
+        // to the service's listener.
     }
 
 }
